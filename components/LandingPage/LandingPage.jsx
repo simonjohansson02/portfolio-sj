@@ -17,9 +17,9 @@ const LandingPage = () => {
 							2021-2022 <span className="text-xs">Junior Developer</span>
 						</p>
 						<p className="text-secondaryColor mb-6 text-sm">
-							Open to learning new things to develop companies and my own knowledge. If I'm not the
-							perfect one matching in knowledge for you. Then I'm definitely it for my hard working and in
-							my learning
+							Open to learning new things to develop companies and my own knowledge. If I&apos;m not the
+							perfect one matching in knowledge for you. Then I&apos;m definitely it for my hard working
+							and in my learning
 						</p>
 						<div className="flex flex-row items-center justify-around w-full">
 							<ul className="flex flex-col items-center text-thirdColor w-1/2">
@@ -87,13 +87,14 @@ const LandingPage = () => {
 							<a
 								href="https://www.linkedin.com/in/simon-johansson-bb645621b/"
 								target="_blank"
+								rel="noreferrer"
 								className=""
 							>
 								<FiLinkedin className="text-mainColor w-10 h-10" />
 							</a>
 						</div>
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href="https://github.com/simonjohansson02" target="_blank" className="">
+							<a href="https://github.com/simonjohansson02" target="_blank" rel="noreferrer" className="">
 								<FiGithub className="text-mainColor w-10 h-10" />
 							</a>
 						</div>

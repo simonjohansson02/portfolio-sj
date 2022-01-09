@@ -9,7 +9,7 @@ const ProjectCard = ({ title, info, stack, github, website, image }) => {
 				<h3 className="text-mainColor text-2xl mb-3">{title}</h3>
 				{/* <p className="text-secondaryColor">{info}</p> */}
 				<div className="relative px-16 w-full h-52 cursor-pointer hover:brightness-50">
-					<a href={website} target="_blank">
+					<a href={website} target="_blank" rel="noreferrer">
 						<Image
 							src={image}
 							alt={`${title}-picture`}
@@ -25,12 +25,12 @@ const ProjectCard = ({ title, info, stack, github, website, image }) => {
 				<div className="flex flex-col items-center pt-10 ">
 					<div className="relative flex flex-row items-center w-full justify-between">
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href={website} target="_blank" className="">
+							<a href={website} target="_blank" rel="noreferrer" className="">
 								<CgWebsite className="text-mainColor w-10 h-10" />
 							</a>
 						</div>
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href={github} target="_blank" className="">
+							<a href={github} target="_blank" rel="noreferrer" className="">
 								<FiGithub className="text-mainColor w-10 h-10" />
 							</a>
 						</div>
