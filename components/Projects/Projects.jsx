@@ -19,7 +19,7 @@ const Projects = () => {
 		image: '/webshop.png'
 	};
 	const sharemeApp = {
-		title: 'Shareme App                    .',
+		title: 'Shareme App',
 		info: 'Did a shareme app in one week',
 		stack: 'React, Sanity, TailwindCSS',
 		github: 'https://github.com/simonjohansson02/exploreThings',
@@ -27,7 +27,7 @@ const Projects = () => {
 		image: '/sharme.jpg'
 	};
 	const portfolio = {
-		title: 'Portfolio                    .',
+		title: 'Portfolio',
 		info: 'Did a Portfolio in a few days',
 		stack: 'Next.js, TailwindCSS',
 		github: 'https://github.com/simonjohansson02/portfolio-sj',
