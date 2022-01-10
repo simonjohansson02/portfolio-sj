@@ -16,12 +16,13 @@ const LandingPage = () => {
 							2021-2022 <span className="text-xs">Junior Developer</span>
 						</p>
 						<p className="text-secondaryColor mb-6 text-sm">
-							I fell in love with programming because XYZ… Now I am on a journey to create a career within
-							web development. Last fall I learned how to build projects with the MERN stack. It takes me
-							on average 30-50 hours to learn a new library or framework like React or NextJS. Which means
-							I can be productive in a team within a new tech stack within two weeks. If I have not yet
-							masted a tech stack that your team requires, fear not. As long as it is within web
-							development I would be excited to learn it.
+							I fell in love with programming because I want to be involved in the future development of
+							web development and see the development curve both individually and globally. Now I am on a
+							journey to create a career within web development. Last fall I learned how to build projects
+							with the MERN stack. It takes me on average 30-50 hours to learn a new library or framework
+							like React or NextJS. Which means I can be productive in a team within a new tech stack
+							within two weeks. If I have not yet masted a tech stack that your team requires, fear not.
+							As long as it is within web development I would be excited to learn it.
 						</p>
 						<div className="flex flex-row justify-around w-full">
 							<ul className="flex flex-col text-thirdColor w-1/2">
