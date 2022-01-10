@@ -8,7 +8,7 @@ const Header = () => {
 				<h2 className="text-mainColor text-base  sm:text-lg">Hi, my name is</h2>
 				<h1 className="text-secondaryColor text-2xl  sm:text-5xl ">Simon Johansson</h1>
 			</div>
-			<div className="relative flex lg:hidden w-16 sm:w-20">
+			<div className="relative flex lg:hidden w-14 sm:w-20">
 				<Image
 					src="/simon4000x4000.png"
 					alt="profile-picture"
