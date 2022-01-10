@@ -7,10 +7,10 @@ import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 const LandingPage = () => {
 	return (
-		<div className="px-2 sm:px-10 md:px-20 lg:px-28  xl:px-40 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 pb-12 lg:pb-40">
+		<div className="px-2 sm:px-10 md:px-20 lg:px-28  xl:px-40 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:pb-40">
 			<div className="w-full lg:items-start items-center grid grid-cols-1 lg:grid-cols-2">
 				<div className=" w-full">
-					<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl h-auto mb-12 sm:mb-40">
+					<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl h-auto mb-12 sm:mb-20">
 						<h3 className="text-mainColor text-2xl mb-3">Experience</h3>
 						<p className="text-secondaryColor mb-3 text-sm">
 							2021-2022 <span className="text-xs">Junior Developer</span>
@@ -44,7 +44,7 @@ const LandingPage = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl h-auto mb-20 lg:mb-0">
+					<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl h-auto mb-12 lg:mb-0">
 						<h3 className="text-mainColor text-2xl mb-3">About Me</h3>
 						<h3 className="text-thirdColor text-base mb-3">19 y/o</h3>
 						<p className="text-secondaryColor mb-6 text-sm">
@@ -89,8 +89,8 @@ const LandingPage = () => {
 						<p className="text-mainColor pb-1">Simon</p>
 						<p className="text-mainColor pb-1">076-875 23 73 </p>
 					</div>
-					<div className="flex flex-row justify-around w-full lg:w-72">
-						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
+					<div className="flex flex-row justify-around w-full lg:w-72 mb-12 lg:mb-0 ">
+						<div className=" flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
 							<a
 								href="https://www.linkedin.com/in/simon-johansson-bb645621b/"
 								target="_blank"
@@ -101,12 +101,12 @@ const LandingPage = () => {
 							</a>
 						</div>
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href="https://github.com/simonjohansson02" target="_blank" rel="noreferrer" className="">
+							<a href="https://github.com/simonjohansson02" target="_blank" rel="noreferrer">
 								<FiGithub className="text-mainColor w-10 h-10" />
 							</a>
 						</div>
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href="/document/SJCV.pdf" target="_blank" rel="noopener noreferrer" className="">
+							<a href="/document/SJCV.pdf" target="_blank" rel="noopener noreferrer">
 								<HiOutlineDocumentSearch className="text-mainColor w-10 h-10" />
 							</a>
 						</div>

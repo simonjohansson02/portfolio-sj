@@ -25,12 +25,12 @@ const ProjectCard = ({ title, info, stack, github, website, image }) => {
 				<div className="flex flex-col items-center pt-10 ">
 					<div className="relative flex flex-row items-center w-full justify-between">
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href={website} target="_blank" rel="noreferrer" className="">
+							<a href={website} target="_blank" rel="noreferrer">
 								<CgWebsite className="text-mainColor w-10 h-10" />
 							</a>
 						</div>
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
-							<a href={github} target="_blank" rel="noreferrer" className="">
+							<a href={github} target="_blank" rel="noreferrer">
 								<FiGithub className="text-mainColor w-10 h-10" />
 							</a>
 						</div>

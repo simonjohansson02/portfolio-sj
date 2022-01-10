@@ -1,10 +1,22 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Header = () => {
 	return (
-		<div className="p-12 sm:pl-20">
-			<h2 className="text-mainColor text-base  sm:text-lg">Hi, my name is</h2>
-			<h1 className="text-secondaryColor text-2xl  sm:text-5xl ">Simon Johansson</h1>
+		<div className="flex flex-row justify-between p-2 pb-12 sm:pr-10 md:pr-20 sm:pl-6 md:pl-10 lg:pl-16  xl:pl-20">
+			<div>
+				<h2 className="text-mainColor text-base  sm:text-lg">Hi, my name is</h2>
+				<h1 className="text-secondaryColor text-2xl  sm:text-5xl ">Simon Johansson</h1>
+			</div>
+			<div className="relative flex lg:hidden w-16 sm:w-20">
+				<Image
+					src="/simon4000x4000.png"
+					alt="profile-picture"
+					priority
+					layout="fill"
+					className="rounded-full object-cover"
+				/>
+			</div>
 		</div>
 	);
 };

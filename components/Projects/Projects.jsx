@@ -37,7 +37,7 @@ const Projects = () => {
 
 	return (
 		<div className="">
-			<div className="pl-2 sm:pl-10 md:pl-20 lg:pl-28  xl:pl-40 pb-12">
+			<div className="px-2 pb-12 sm:pl-10 md:pl-20 lg:pl-28  xl:pl-40">
 				<h1 className="text-mainColor text-lg">My Projects</h1>
 			</div>
 			<div className="grid gap-2 xl:gap-3 px-2 sm:px-10 md:px-20 lg:px-28  xl:px-40 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 pb:20 sm:pb-40">
