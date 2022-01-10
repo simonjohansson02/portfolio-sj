@@ -5,10 +5,10 @@ import { CgWebsite } from 'react-icons/cg';
 const ProjectCard = ({ title, info, stack, github, website, image }) => {
 	return (
 		<div className="pb-10 sm:pb-0">
-			<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl  h-[500px]">
-				<h3 className="text-mainColor text-2xl mb-3">{title}</h3>
+			<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl ">
+				<h3 className="text-mainColor text-2xl">{title}</h3>
 				{/* <p className="text-secondaryColor">{info}</p> */}
-				<div className="relative px-16 w-full h-52 cursor-pointer hover:brightness-50">
+				<div className="relative my-4 w-full h-52 cursor-pointer hover:brightness-50">
 					<a href={website} target="_blank" rel="noreferrer">
 						<Image
 							src={image}

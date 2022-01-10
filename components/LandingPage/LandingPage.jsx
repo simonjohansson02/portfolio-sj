@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { FiLinkedin, FiGithub } from 'react-icons/fi';
 import { HiOutlineDocumentSearch } from 'react-icons/hi';
 import { MdOutlinePlace } from 'react-icons/md';
@@ -17,12 +16,15 @@ const LandingPage = () => {
 							2021-2022 <span className="text-xs">Junior Developer</span>
 						</p>
 						<p className="text-secondaryColor mb-6 text-sm">
-							Open to learning new things to develop companies and my own knowledge. If I&apos;m not the
-							perfect one matching in knowledge for you. Then I&apos;m definitely it for my hard working
-							and in my learning
+							I fell in love with programming because XYZ… Now I am on a journey to create a career within
+							web development. Last fall I learned how to build projects with the MERN stack. It takes me
+							on average 30-50 hours to learn a new library or framework like React or NextJS. Which means
+							I can be productive in a team within a new tech stack within two weeks. If I have not yet
+							masted a tech stack that your team requires, fear not. As long as it is within web
+							development I would be excited to learn it.
 						</p>
-						<div className="flex flex-row items-center justify-around w-full">
-							<ul className="flex flex-col items-center text-thirdColor w-1/2">
+						<div className="flex flex-row justify-around w-full">
+							<ul className="flex flex-col text-thirdColor w-1/2">
 								<li>Javascript</li>
 								<li>HTML/CSS</li>
 								<li>React</li>
@@ -31,7 +33,7 @@ const LandingPage = () => {
 								<li>Github</li>
 							</ul>
 
-							<ul className="flex flex-col items-center text-thirdColor w-1/2">
+							<ul className="flex flex-col text-thirdColor w-1/2">
 								<li>NPM</li>
 								<li>Rest Api</li>
 								<li>NodeJS</li>
@@ -43,7 +45,7 @@ const LandingPage = () => {
 					</div>
 					<div className="text-secondBackgroundColor bg-secondBackgroundColor p-6 rounded-xl h-auto mb-20 lg:mb-0">
 						<h3 className="text-mainColor text-2xl mb-3">About Me</h3>
-
+						<h3 className="text-thirdColor text-base mb-3">19 y/o</h3>
 						<p className="text-secondaryColor mb-6 text-sm">
 							Hi, I started my journey in web development after the summer of 2021 through a bootcamp and
 							self-learning. In over half a year, I see a great growth in my developing journey that grows
@@ -72,7 +74,7 @@ const LandingPage = () => {
 					</div>
 				</div>
 				<div className="flex flex-col lg:h-96 w-full lg:w-72 sticky top-24 lg:pl-40">
-					<div className="hidden lg:flex animate-bounce pb-4 w-72">
+					<div className="hidden lg:flex animate-bounce pb-1 w-72">
 						<Image
 							src="/simon4000x4000.png"
 							alt="profile-picture"
@@ -81,6 +83,10 @@ const LandingPage = () => {
 							height={288}
 							className="rounded-full"
 						/>
+					</div>
+					<div className="hidden lg:flex flex-col lg:w-72 items-center ">
+						<p className="text-mainColor pb-1">Simon</p>
+						<p className="text-mainColor pb-1">076-875 23 73 </p>
 					</div>
 					<div className="flex flex-row justify-around w-full lg:w-72">
 						<div className="flex w-16 h-16 rounded-full cursor-pointer border border-thirdColor bg-secondBackgroundColor items-center justify-center hover:brightness-75">
