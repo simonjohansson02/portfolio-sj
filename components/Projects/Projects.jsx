@@ -5,10 +5,10 @@ const Projects = () => {
 	const spotify = {
 		title: 'Spotify Clone',
 		info: 'Did a spotify clone in three weeks',
-		stack: 'Next.js, Redux, TailwindCSS',
-		github: 'https://github.com/simonjohansson02/spotify-clone',
-		website: 'https://spotify-clone-rho-ashy.vercel.app/',
-		image: '/spotify-clone-img.png'
+		stack: 'React, Redux, Mui',
+		github: 'https://github.com/simonjohansson02/spotify-react-clone',
+		website: 'https://spotify-react-clone-sj.vercel.app/',
+		image: '/spotify.png'
 	};
 	const webshop = {
 		title: 'Webshop with Klarna',
